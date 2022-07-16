@@ -14,6 +14,8 @@
 		745C6B9028825FD900CBB7AA /* MeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6B8F28825FD900CBB7AA /* MeowTests.swift */; };
 		745C6B9A28825FD900CBB7AA /* MeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6B9928825FD900CBB7AA /* MeowUITests.swift */; };
 		745C6B9C28825FD900CBB7AA /* MeowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6B9B28825FD900CBB7AA /* MeowUITestsLaunchTests.swift */; };
+		745C6BA928825FF100CBB7AA /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6BA828825FF100CBB7AA /* CatFactView.swift */; };
+		745C6BAB2882601900CBB7AA /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6BAA2882601900CBB7AA /* CatImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		745C6B9528825FD900CBB7AA /* MeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		745C6B9928825FD900CBB7AA /* MeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowUITests.swift; sourceTree = "<group>"; };
 		745C6B9B28825FD900CBB7AA /* MeowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		745C6BA828825FF100CBB7AA /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
+		745C6BAA2882601900CBB7AA /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				745C6B7E28825FD600CBB7AA /* MeowApp.swift */,
 				745C6B8028825FD600CBB7AA /* ContentView.swift */,
+				745C6BA828825FF100CBB7AA /* CatFactView.swift */,
+				745C6BAA2882601900CBB7AA /* CatImageView.swift */,
 				745C6B8228825FD900CBB7AA /* Assets.xcassets */,
 				745C6B8428825FD900CBB7AA /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				745C6B8128825FD600CBB7AA /* ContentView.swift in Sources */,
+				745C6BA928825FF100CBB7AA /* CatFactView.swift in Sources */,
 				745C6B7F28825FD600CBB7AA /* MeowApp.swift in Sources */,
+				745C6BAB2882601900CBB7AA /* CatImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
