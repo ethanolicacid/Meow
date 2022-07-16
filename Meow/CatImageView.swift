@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct CatImageView: View {
+    @State var userLikedCat = false
     var body: some View {
-        Text("This is cat image view")
+        VStack {
+            AsyncImage(url: URL(string: "https://cataas.com/c")!){ image in
+                image
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+                    .cornerRadius(20)
+            } placeholder:{
+                ProgressView()
+                    .progressViewStyle(.circular)
+            }
+            HStack{
+                VStack{
+                    Text("Look at this cat! So cute!!")
+                        .padding(.all)
+                    Text("🐱😹😻🐶🙀😽😺")
+                }
+                Button{
+                    userLikedCat.toggle()
+                } label:{
+                    Image(systemName: userLikedCat ? "hand.thumbsup.fill" : "hand.thumbsup")
+                }
+            }
+        }
     }
 }
 

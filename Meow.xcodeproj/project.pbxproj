@@ -16,6 +16,8 @@
 		745C6B9C28825FD900CBB7AA /* MeowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6B9B28825FD900CBB7AA /* MeowUITestsLaunchTests.swift */; };
 		745C6BA928825FF100CBB7AA /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6BA828825FF100CBB7AA /* CatFactView.swift */; };
 		745C6BAB2882601900CBB7AA /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6BAA2882601900CBB7AA /* CatImageView.swift */; };
+		745C6BAD2882619F00CBB7AA /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6BAC2882619F00CBB7AA /* CatFactManager.swift */; };
+		745C6BAF288262AD00CBB7AA /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C6BAE288262AD00CBB7AA /* CatFact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		745C6B9B28825FD900CBB7AA /* MeowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		745C6BA828825FF100CBB7AA /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		745C6BAA2882601900CBB7AA /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
+		745C6BAC2882619F00CBB7AA /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		745C6BAE288262AD00CBB7AA /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				745C6B7E28825FD600CBB7AA /* MeowApp.swift */,
 				745C6B8028825FD600CBB7AA /* ContentView.swift */,
+				745C6BAC2882619F00CBB7AA /* CatFactManager.swift */,
+				745C6BAE288262AD00CBB7AA /* CatFact.swift */,
 				745C6BA828825FF100CBB7AA /* CatFactView.swift */,
 				745C6BAA2882601900CBB7AA /* CatImageView.swift */,
 				745C6B8228825FD900CBB7AA /* Assets.xcassets */,
@@ -265,6 +271,8 @@
 			files = (
 				745C6B8128825FD600CBB7AA /* ContentView.swift in Sources */,
 				745C6BA928825FF100CBB7AA /* CatFactView.swift in Sources */,
+				745C6BAF288262AD00CBB7AA /* CatFact.swift in Sources */,
+				745C6BAD2882619F00CBB7AA /* CatFactManager.swift in Sources */,
 				745C6B7F28825FD600CBB7AA /* MeowApp.swift in Sources */,
 				745C6BAB2882601900CBB7AA /* CatImageView.swift in Sources */,
 			);
